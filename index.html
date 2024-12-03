@@ -16,6 +16,8 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Personal theme CSS-->
+        <link href="css/personal-styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -61,7 +63,7 @@
                           </div>
                         </div>
                       </div>
-                    <p class="lead mb-5">Making great products is what development is all about. As an app developer, I use the right tool for the right job. Whether it's Swift and SwiftUI for iOS, Unity/Unreal for making games, or Node.js for backend development, it is about getting things done the best way possible, even if I have to learn a new tool to do it. I believe organization is essential towards that goal, that is why I take meticulous notes of requirements through checklists to make sure that nothing slips through the cracks.</p>
+                    <p class="lead mb-5">Making great products is what development is all about. As an app developer, I use the right tool for the right job. Swift, UIKit, SwiftUI, Obj-C, or literally anything else. It is about getting things done the best way possible, especially when I have to learn a new tool to do it. I believe organization is essential towards that goal, that is why I take meticulous notes of requirements through checklists to make sure that nothing slips through the cracks.</p>
                     <div class="social-icons">
                         <a class="social-icon" href="mailto:sergio@sergiowehbe.com"><i class="fa fa-envelope"></i></a>
                         <a class="social-icon" href="https://www.linkedin.com/in/sergiowehbe/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -77,6 +79,31 @@
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">iOS App Developer</h3>
+                            <div class="subheading mb-3">RAY Labs SAL</div>
+                            <ul>
+                                <li>Used Swift and UIKit to develop and maintain features of the white-labeled app <strong>RAY For Spaces</strong>.
+                                </li>
+                                <li>Integrated REST APIs and used MVVM architecture.</li>
+                                <li>Added libraries using CocoaPods and Swift Package Manager.</li>
+                                <li>Maintained Objective-C codebase and rewrote parts of it in Swift.</li>
+                                <li>Monitored reliability using Google Firebase Crashlytics.</li>
+                                <li>Enabled Apple Push Notifications using Firebase Cloud Messaging.</li>
+                                <li>Worked in an Agile team and collaborated with Product Managers, Backend Engineers, and Designers.</li>
+                                <li>Participated in code reviews on GitHub and Bitbucket, providing constructive criticism.</li>
+                                <li>Mentored team members and interns (iOS and Android), helping with daily tasks and fostering a project-wide
+                                    perspective.</li>
+                                <li>Optimized performance by testing code, measuring performance, and debugging memory leaks.</li>
+                                <li>Integrated SwiftUI in UIKit views.</li>
+                                <li>Implemented Unit Tests using XCTest.</li>
+                                <li>Used Jenkins and Fastlane for CI/CD workflows, including building the app, running Unit Tests, and uploading
+                                    builds for QA and submitting apps for review on the App Store.</li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Jun 2022 - Present</span></div>
+                    </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Full-Stack FinTech iOS App Development</h3>
@@ -126,26 +153,123 @@
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-swift" title="Swift"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-python" title="Python"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-java" title="Java"></i></li>
-                        <li class="list-inline-item"><img src = "./assets/img/c++.svg" alt="C++" title="C++"/></li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <i class="fab fa-swift" title="Swift"></i>
+                                <span>Swift</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <img src="./assets/img/objective-c.png" alt="Objective-C" title="Objective-C" />
+                                <span>Objective-C</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <img src="./assets/img/c-sharp.svg" alt="C#" title="C#" />
+                                <span>C#</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <img src="./assets/img/c++.svg" alt="C++" title="C++" />
+                                <span>C++</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <i class="fab fa-python" title="Python"></i>
+                                <span>Python</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <i class="fab fa-java" title="Java"></i>
+                                <span>Java</span>
+                            </div>
+                        </li>
                     </ul>
+                
                     <div class="subheading mb-3">Tools</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-node-js" title="node.js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm" title="npm"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react" title="React"></i></li>
-                        <li class="list-inline-item"><img src="./assets/img/unreal-engine.svg" alt="Unreal Engine" title="Unreal Engine" style="display: block; width: 51px;"/></li>
-                        <li class="list-inline-item"><img src = "./assets/img/firebase.svg" alt="Firebase" title="Firebase" style="display: block; width: 51px;"/></li>
-                        <li class="list-inline-item"><img src = "./assets/img/heroku.svg" alt="Heroku" title="Heroku" style="display: block; width: 51px;"/></li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <img src="./assets/img/uikit.svg" alt="UIKit" title="UIKit" />
+                                <span>UIKit</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <img src="./assets/img/swiftui.png" alt="SwiftUI" title="SwiftUI" />
+                                <span>SwiftUI</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <img src="./assets/img/unity.svg" alt="Unity" title="Unity" />
+                                <span>Unity</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <img src="./assets/img/unreal-engine.svg" alt="Unreal Engine" title="Unreal Engine" />
+                                <span>Unreal Engine</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <img src="./assets/img/firebase.svg" alt="Firebase" title="Firebase" />
+                                <span>Firebase</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <i class="fab fa-node-js" title="Node.js"></i>
+                                <span>Node.js</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <i class="fab fa-npm" title="npm"></i>
+                                <span>npm</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <i class="fab fa-react" title="React"></i>
+                                <span>React</span>
+                            </div>
+                        </li>
                     </ul>
+                
                     <div class="subheading mb-3">IDE</div>
                     <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><img src = "./assets/img/xcode.svg" alt="XCode" title="XCode" style="display: block; width: 51px;"/></li>
-                        <li class="list-inline-item"><img src="./assets/img/vim.svg" alt="Vim" title="Vim" style="display: block; width: 51px;"/></li>
-                        <li class="list-inline-item"><img src = "./assets/img/visual-studio-code-2019.svg" alt="Visual Studio Code" title="Visual Studio Code" style="display: block; width: 51px;"/></li>
-                        <li class="list-inline-item"><img src = "./assets/img/pycharm.svg" alt="PyCharm - Jetbrains" title="PyCharm - Jetbrains" style="display: block; width: 51px;"/></li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <img src="./assets/img/xcode.svg" alt="XCode" title="XCode" />
+                                <span>XCode</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <img src="./assets/img/vim.svg" alt="Vim" title="Vim" />
+                                <span>Vim</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <img src="./assets/img/visual-studio-code-2019.svg" alt="Visual Studio Code"
+                                    title="Visual Studio Code" />
+                                <span>VS Code</span>
+                            </div>
+                        </li>
+                        <li class="list-inline-item">
+                            <div class="icon-container">
+                                <img src="./assets/img/pycharm.svg" alt="PyCharm" title="PyCharm" />
+                                <span>PyCharm</span>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -155,7 +279,7 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
                     <p>Apart from being a developer, I love learning languages. To learn a new language I use language learning apps, I listen to music and podcasts, watch videos and movies, all in the target language.</p>
-                    <p class="mb-0">I spend most of my free time with friends and family, whether it's going for a hike, palying video games or just having dinner. I love sight seeing in historical places, especially if accompanied by a curious and imaginative partner. And I'm always down for a football match <i class="fas fa-futbol"></i></p>
+                    <p class="mb-0">I spend most of my free time with friends and family, whether it's going for a hike, palying video games or just having dinner. I love sight seeing in historical places, especially if accompanied by a curious and imaginative partner. Oh, almost forgot, I'm always down for a football match <i class="fas fa-futbol"></i></p>
                 </div>
             </section>
             <hr class="m-0" />
