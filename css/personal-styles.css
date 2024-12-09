@@ -21,3 +21,17 @@
   color: #555;
   /* Optional: Adjust color for better readability */
 }
+
+.language-level {
+  font-size: 1.5rem;
+  /* Makes the level headers bigger */
+  margin-top: 1rem;
+  /* Adds spacing above headers */
+}
+
+.language-list li {
+  font-size: 1.25rem;
+  /* Makes the language text bigger */
+  margin-bottom: 0.5rem;
+  /* Adds spacing between list items */
+}
