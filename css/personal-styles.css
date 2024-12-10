@@ -35,3 +35,21 @@
   margin-bottom: 0.5rem;
   /* Adds spacing between list items */
 }
+
+.language-container {
+  display: flex;
+  align-items: center;
+  /* Centers the image and text vertically */
+  gap: 8px;
+  /* Adds spacing between the image and text */
+}
+
+.language-item {
+  margin-bottom: 8px;
+  /* Adds spacing between list items */
+}
+
+img {
+  display: block;
+  /* Ensures the image behaves properly in the flex container */
+}
