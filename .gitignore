@@ -1,0 +1,6 @@
+# macOS file metadata
+.DS_Store
+
+# VS Code settings and workspace
+.vscode/
+*.code-workspace
